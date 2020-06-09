@@ -511,6 +511,10 @@ html {
     .section-heading {
         font-size: 2.5rem;
     }
+    .section-1-heading {
+        width: 80%;
+        font-size: 1.9rem;
+    }
     .navbar-link {
         margin: 0 1.5rem;
     }
