@@ -10,11 +10,7 @@ window.addEventListener("scroll", () => {
 });
 
 const mainFn = () => {
-    if (window.pageYOffset >= navbarOffsetTop) {
-        navbar.classList.add("sticky");
-    } else {
-        navbar.classList.remove("sticky");
-    }
+
 
     sections.forEach((section, i) => {
         if (window.pageYOffset >= section.offsetTop - 10) {

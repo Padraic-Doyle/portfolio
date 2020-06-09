@@ -56,11 +56,12 @@ html {
     background-color: red;
     padding: 0 3rem;
     margin-bottom: 5rem;
+    margin-top: 10rem;
     text-transform: uppercase;
     letter-spacing: 1rem;
     border-bottom: 0.3rem solid #fff;
     text-shadow: 0.2rem 0.2rem 1rem #555;
-    transform: skew(-20deg);
+    transform: skew(-10deg);
 }
 
 .person-img {
@@ -101,19 +102,15 @@ html {
 
 /* Navbar */
 
-.container {
-    position: relative;
-}
-
 .navbar {
     width: 100%;
     height: 4rem;
     background-color: red;
     box-shadow: 0.2rem 0.2rem 0.5rem #555;
-    position: fixed;
     z-index: 300;
     top: 0;
     left: 0;
+    position: fixed;
 }
 
 
