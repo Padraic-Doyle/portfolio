@@ -22,6 +22,20 @@ html {
     align-items: center;
 }
 
+body {
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: -111;
+    position: absolute;
+    /* top: 0;
+    bottom: 0; */
+}
+
 
 /* .section-heading {
     font-size: 5rem;
@@ -46,6 +60,29 @@ html {
     background-size: cover;
     flex-direction: column;
     background-color: white;
+    position: relative;
+    border-bottom: 10px solid red;
+}
+
+.shape-a,
+.shape-b {
+    width: 20vw;
+    height: 30vh;
+    background-color: red;
+}
+
+.shape-a {
+    position: absolute;
+    top: calc(50% - 50px);
+    right: calc(10%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 80% 50%);
+}
+
+.shape-b {
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(10%);
+    clip-path: polygon(0 0, 20% 50%, 100% 100%, 0 100%);
 }
 
 .section-1-heading,
@@ -517,6 +554,7 @@ html {
     .progress-bar {
         width: 40rem;
     }
+    .shape-a {}
 }
 
 
