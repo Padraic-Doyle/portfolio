@@ -26,16 +26,6 @@ body {
     position: relative;
 }
 
-.overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
-    z-index: -111;
-    position: absolute;
-    /* top: 0;
-    bottom: 0; */
-}
-
 
 /* .section-heading {
     font-size: 5rem;
@@ -62,27 +52,6 @@ body {
     background-color: white;
     position: relative;
     border-bottom: 10px solid red;
-}
-
-.shape-a,
-.shape-b {
-    width: 20vw;
-    height: 30vh;
-    background-color: red;
-}
-
-.shape-a {
-    position: absolute;
-    top: calc(50% - 50px);
-    right: calc(10%);
-    clip-path: polygon(100% 0, 100% 100%, 0 100%, 80% 50%);
-}
-
-.shape-b {
-    position: absolute;
-    top: calc(50% - 50px);
-    left: calc(10%);
-    clip-path: polygon(0 0, 20% 50%, 100% 100%, 0 100%);
 }
 
 .section-1-heading,
@@ -197,6 +166,22 @@ body {
 
 /* End of Navbar */
 
+.sub-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: red;
+    padding: 0 3rem;
+    margin-bottom: 5rem;
+    /* margin-top: 10rem; */
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    border-bottom: 0.3rem solid #fff;
+    text-shadow: 0.2rem 0.2rem 1rem #555;
+    /* transform: skew(10deg); */
+    border-radius: 20px;
+}
+
 
 /* Section 2 */
 
@@ -278,6 +263,23 @@ body {
     letter-spacing: 0.3rem;
     transform: skew(-10deg);
     box-shadow: 0.2rem 0.2rem 0.5rem #555;
+}
+
+.degrees {
+    width: 100%;
+}
+
+li {
+    width: 60rem;
+    height: 5rem;
+    background-color: red;
+    margin: 1.5rem 0;
+    border-radius: 0.3rem;
+    box-shadow: 0.2rem 0.2rem 1rem #555;
+    position: relative;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
 }
 
 
@@ -544,6 +546,7 @@ body {
     .section-1-heading {
         width: 80%;
         font-size: 1.9rem;
+        text-align: center;
     }
     .navbar-link {
         margin: 0 1.5rem;
@@ -553,6 +556,13 @@ body {
     }
     .progress-bar {
         width: 40rem;
+    }
+    ul li {
+        width: 40rem;
+        height: 7rem;
+    }
+    .section-1-btn {
+        margin-bottom: 20rem;
     }
 }
 
