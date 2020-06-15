@@ -51,6 +51,11 @@ body {
     flex-direction: column;
     background-color: white;
     position: relative;
+}
+
+.section-1,
+.section-2,
+.section-3 {
     border-bottom: 10px solid red;
 }
 
@@ -455,7 +460,7 @@ li {
 .social-media-link {
     margin: 0 2rem;
     padding: 0.7rem;
-    background-color: #fff;
+    background-color: black;
     border-radius: 0.5rem;
     display: inline-block;
 }
