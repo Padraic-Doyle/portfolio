@@ -273,11 +273,33 @@
         <!-- Section 4 -->
         <section class="section-4" id="section-4">
             <h1 class="section-heading section-4-heading">Contact Me</h1>
-            <form class="contact-form center" name="contact" method="POST" action="POST" data-netlify="true">
+            <!-- <form class="contact-form center" name="contact" method="POST" action="POST" data-netlify="true">
                 <input type="text" placeholder="Name1" name="name" />
                 <input type="email" placeholder="Email" name="email" />
                 <textarea placeholder="Message" name="message"></textarea>
                 <input type="submit" value="Submit" class="contact-form-btn" />
+            </form> -->
+            <form name="contact1" method="POST" data-netlify="true">
+                <p>
+                    <label>Your Name: <input type="text" name="name" /></label>
+                </p>
+                <p>
+                    <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                    <label>Your Role:
+              <select name="role[]" multiple>
+                <option value="leader">Leader</option>
+                <option value="follower">Follower</option>
+              </select></label
+            >
+          </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                    <button type="submit">Send</button>
+                </p>
             </form>
         </section>
         <!-- End of Section 4 -->
